@@ -1,0 +1,33 @@
+data:
+  raw_data_dir: "data/raw/nuplan-v1.1_mini/data/cache/mini"
+  processed_dir: "data/processed"
+  toy_slice_dir: "data/toy_slice"
+  max_agents: 20
+  agent_feat_dim: 6
+  sequence_len: 50
+  prediction_horizon: 20
+  train_split: 0.8
+  position_scale_m: 50.0
+  velocity_scale_ms: 10.0
+
+model:
+  d_model: 128
+  n_heads: 4
+  n_encoder_layers: 4
+  n_predictor_layers: 2
+  dropout: 0.2
+  ema_decay: 0.0          # ABLATION: no EMA — target = context encoder at every step → collapse
+  lambda_aux: 0.1
+
+training:
+  batch_size: 32
+  learning_rate: 3e-4
+  weight_decay: 1e-4
+  max_epochs: 50
+  warmup_epochs: 5
+  device: "mps"
+  checkpoint_dir: "checkpoints_no_ema"
+  log_every_n_steps: 10
+
+evaluation:
+  surprise_threshold_percentile: 90

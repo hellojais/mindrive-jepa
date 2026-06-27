@@ -1,0 +1,13 @@
+torch
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+umap-learn
+jupyter
+ipykernel
+tqdm
+pyyaml
+tensorboard
+pygame

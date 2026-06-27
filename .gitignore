@@ -1,0 +1,50 @@
+# Data — never commit raw or processed data
+data/raw/
+data/processed/
+data/toy_slice/
+
+# Model weights (all checkpoint variants)
+checkpoints/
+checkpoints_*/
+
+# Outputs (all output variants)
+outputs/
+outputs_*/
+
+# TensorBoard / run logs
+runs/
+
+# Paper folder (LaTeX source, figures, zip artifacts)
+paper/
+
+# Paper figure generation and experiment scripts
+experiments/
+scripts/correlation_analysis.py
+
+# Internal planning and personal notes
+docs/
+SPEC.md
+SPEC_PATCH.md
+AV_WORLDMODEL_SPEC.md
+EXPLAINER.md
+
+# PDF files at project root (old drafts, downloaded references)
+*.pdf
+
+# Notebooks (scratch exploration)
+notebooks/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
