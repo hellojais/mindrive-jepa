@@ -2,11 +2,13 @@
 
 **Zero-Label Driving Scenario Complexity Detection via Joint Embedding Predictive Architecture**
 
-> Paper submitted to arXiv — link coming soon.
+[![arXiv](https://img.shields.io/badge/arXiv-2606.28383-b31b1b.svg)](https://arxiv.org/abs/2606.28383)
 
 ---
 
 ## Overview
+
+**Paper**: [arXiv:2606.28383](https://arxiv.org/abs/2606.28383)
 
 minDrive-JEPA applies Joint-Embedding Predictive Architecture (JEPA) to structured autonomous driving scenarios from the [nuPlan](https://www.nuscenes.org/nuplan) dataset.
 The model learns compact latent representations through masked prediction — without any pixel-level reconstruction or human-provided labels.
@@ -83,13 +85,11 @@ If you find this work useful, please cite:
   title   = {Zero-Label Driving Scenario Complexity Detection
              via Joint Embedding Predictive Architecture},
   author  = {Jaiswal, Santosh},
-  journal = {arXiv preprint arXiv:2506.XXXXX},
+  journal = {arXiv preprint arXiv:2606.28383},
   year    = {2026},
-  url     = {https://arxiv.org/abs/2506.XXXXX}
+  url     = {https://arxiv.org/abs/2606.28383}
 }
 ```
-
-> **Note:** Replace `2506.XXXXX` with the actual arXiv ID once the paper goes live (expected within a few days of submission).
 
 ---
 
